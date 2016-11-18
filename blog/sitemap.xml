@@ -5,63 +5,63 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2016-09-21T22:45:49-00:00</lastmod>
+<lastmod>2016-11-18T16:29:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2016-09-21T22:45:49-00:00</lastmod>
+<lastmod>2016-11-18T16:29:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2016-09-21T22:45:49-00:00</lastmod>
+<lastmod>2016-11-18T16:29:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2016-09-21T22:45:49-00:00</lastmod>
+<lastmod>2016-11-18T16:29:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2016-09-21T22:44:48+08:00</lastmod>
+<lastmod>2016-11-18T13:47:35+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./2016fall-jian-bao-yu-wang-zhi-xi-tong.html</loc>
-<lastmod>2016-09-02T12:00:00+08:00</lastmod>
+<loc>./w10-brython-hui-tu-fan-li.html</loc>
+<lastmod>2016-11-14T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./category/misc.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<loc>./category/course.html</loc>
+<lastmod>2016-11-14T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/shi-yong-dao-yin.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<loc>./tag/brython.html</loc>
+<lastmod>2016-11-14T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/yen.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<lastmod>2016-11-14T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
