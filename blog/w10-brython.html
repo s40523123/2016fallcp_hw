@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Archives - 2016Fall 課程網誌 (虎尾科大MDE)</title>
+    <title>W10 Brython - 2016Fall 課程網誌 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,15 +166,19 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
+<link rel="canonical" href="./w10-brython.html">
 
         <meta name="author" content="KMOL" />
+        <meta name="description" content="繪圖範例 Date: 2016-11-14 12:00 Category: Course Tags: Brython Author: yen window.onload=function(){ brython(1); } from browser import document as doc import math # 準備繪圖畫布 canvas = doc[&#34;japanflag1&#34;] ctx = canvas.getContext(&#34;2d&#34;) # 以下可以利用 ctx 物件進行畫圖 # 先畫一條直線 ctx.beginPath() # 設定線的寬度為 1 個單位 ctx.lineWidth = 1 inc = 5 for i in range ..." />
 
-    <!-- Open Graph tags -->
         <meta property="og:site_name" content="2016Fall 課程網誌 (虎尾科大MDE)" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="2016Fall 課程網誌 (虎尾科大MDE)"/>
-        <meta property="og:url" content="."/>
-        <meta property="og:description" content="2016Fall 課程網誌 (虎尾科大MDE)"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="W10 Brython"/>
+        <meta property="og:url" content="./w10-brython.html"/>
+        <meta property="og:description" content="繪圖範例 Date: 2016-11-14 12:00 Category: Course Tags: Brython Author: yen window.onload=function(){ brython(1); } from browser import document as doc import math # 準備繪圖畫布 canvas = doc[&#34;japanflag1&#34;] ctx = canvas.getContext(&#34;2d&#34;) # 以下可以利用 ctx 物件進行畫圖 # 先畫一條直線 ctx.beginPath() # 設定線的寬度為 1 個單位 ctx.lineWidth = 1 inc = 5 for i in range ..."/>
+        <meta property="article:published_time" content="2016-12-02" />
+            <meta property="article:section" content="misc" />
+            <meta property="article:author" content="KMOL" />
 
 
     <!-- Bootstrap -->
@@ -258,7 +262,7 @@ init_mathjax();
                         <li >
                             <a href="./category/course.html">Course</a>
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="./category/misc.html">Misc</a>
                         </li>
             </ul>
@@ -281,22 +285,75 @@ init_mathjax();
         <div class="col-sm-9">
 
     <section id="content">
-        <h1>Archives for 2016Fall 課程網誌 (虎尾科大MDE)</h1>
-        <div id="archives">
-                <p>
-                    <span class="categories-timestamp"><time datetime="2016-12-02T14:57:35.792710+08:00">週五 02 十二月 2016</time></span>
-                    <a href="./w10-brython.html">W10 Brython</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2016-12-02T12:00:00+08:00">週五 02 十二月 2016</time></span>
-                    <a href="./w12-brython-hui-tu-lian-xi.html">W12 Brython 繪圖練習</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2016-11-14T12:00:00+08:00">週一 14 十一月 2016</time></span>
-                    <a href="./w10-brython-hui-tu-fan-li.html">W10 Brython 繪圖範例</a>
-                </p>
-        </div>
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./w10-brython.html"
+                       rel="bookmark"
+                       title="Permalink to W10 Brython">
+                        W10 Brython
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2016-12-02T14:57:35.792710+08:00"> 週五 02 十二月 2016</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/kmol.html"><i class="fa fa-user"></i> KMOL</a>
+
+
+
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>繪圖範例 
+Date: 2016-11-14 12:00 
+Category: Course 
+Tags: Brython Author: yen</p>
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫兩條直線 -->
+
+<canvas id="japanflag1" width="600" height="200"></canvas>
+
+<script type="text/python3">
+from browser import document as doc
+import math
+# 準備繪圖畫布
+canvas = doc["japanflag1"]
+ctx = canvas.getContext("2d")
+
+# 以下可以利用 ctx 物件進行畫圖
+# 先畫一條直線
+ctx.beginPath()
+# 設定線的寬度為 1 個單位
+ctx.lineWidth = 1
+inc = 5
+for i in range(100):
+    ctx.moveTo(100+i*inc,100)
+    ctx.lineTo(100+i*inc,200)
+# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+ctx.strokeStyle = "blue"
+# 實際執行畫線
+ctx.stroke()
+ctx.closePath()
+</script>
+            </div>
+            <!-- /.entry-content -->
+        </article>
     </section>
+
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
