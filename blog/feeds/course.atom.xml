@@ -77,7 +77,12 @@ def canvasText(x, y, fontSize, string, sup, sub, color, ctx):
 w = 20
 h = 30
 background(100, 100, w, h, 5, 5, ctx)
-canvasText(100,  80, 20, "A", "b", "", "black", ctx)
+mylist = ["E", "A", "D", "G", "B", "E"]
+num = 0
+for s in mylist:
+    #canvasText(100,  80, 20, "A", "b", "", "black", ctx)
+    canvasText(100+num*w,  80, 20, s, "", "", "black", ctx)
+    num = num + 1
 &lt;/script&gt;</summary><category term="Brython"></category></entry><entry><title>W10 Brython 繪圖範例</title><link href="./w10-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-11-14T12:00:00+08:00</published><updated>2016-11-14T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-14:./w10-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
 
 
