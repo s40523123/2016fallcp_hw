@@ -15,11 +15,11 @@
 </v>
 <v t="amd.20160921213353.1"><vh>2016fall 簡報與網誌樣板系統</vh></v>
 <v t="amd.20160106095324.1" a="E"><vh>@path ./../</vh>
-<v t="leo.20151213173830.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="leo.20151213173830.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
 <v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
-<v t="amd.20151216151325.1" a="E"><vh>@clean index.html</vh>
+<v t="amd.20151216151325.1"><vh>@clean index.html</vh>
 <v t="amd.20161004083800.1" a="E"><vh>html</vh>
 <v t="amd.20161004083800.2"><vh>head</vh></v>
 <v t="amd.20161004083800.5" a="E"><vh>body</vh>
@@ -167,6 +167,7 @@
 <v t="leo.20161114144444.1"><vh>@edit 20161114.md</vh></v>
 <v t="leo.20161202145635.1"><vh>@edit 20161202.md</vh></v>
 <v t="leo.20161209140949.1"><vh>@edit 20161209.md</vh></v>
+<v t="leo.20161216135254.1"><vh>@edit 20161216.md</vh></v>
 </v>
 </v>
 </v>
@@ -2217,7 +2218,7 @@ Diff...
 + &lt;head&gt;
 +     &lt;meta charset="utf-8"&gt;
 + &lt;title&gt;    
-+ 2016 Fall 計算機程式課程
++ 40523123 郝冠儒的計算機課程
 + &lt;/title&gt;
 +     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
 +     &lt;meta name="author" content="Hakim El Hattab"&gt;
