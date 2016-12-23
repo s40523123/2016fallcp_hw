@@ -168,6 +168,7 @@
 <v t="leo.20161202145635.1"><vh>@edit 20161202.md</vh></v>
 <v t="leo.20161209140949.1"><vh>@edit 20161209.md</vh></v>
 <v t="leo.20161216135254.1"><vh>@edit 20161216.md</vh></v>
+<v t="leo.20161223145356.1"><vh>@edit 20161223.md</vh></v>
 </v>
 </v>
 </v>
@@ -515,6 +516,16 @@
 <v t="leo.20161118210944.245"><vh>new:iframe 導入影片</vh></v>
 </v>
 </v>
+<v t="leo.20161223145325.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20161223145325.3"><vh>Recovered node "head" from @clean index.html</vh>
+<v t="leo.20161223145325.4"><vh>old:head</vh></v>
+<v t="leo.20161223145325.5"><vh>new:head</vh></v>
+</v>
+<v t="leo.20161223145325.6"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161223145325.7"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20161223145325.8"><vh>new:封面投影片內容</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -559,7 +570,7 @@ print("hello")
 	&lt;head&gt;
 		&lt;meta charset="utf-8"&gt;
 
-		&lt;title&gt;reveal.js – The HTML Presentation Framework&lt;/title&gt;
+		&lt;title&gt;40523123郝冠儒的計算機課程&lt;/title&gt;
 
 		&lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
 		&lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -962,8 +973,8 @@ Reveal.addEventListener( 'customevent', function() {
 </t>
 <t tx="amd.20161004095719.2">			&lt;div class="slides"&gt;
 				&lt;section&gt;
-					&lt;h1&gt;2016Fall CPA 計算機程式課程&lt;/h1&gt;
-					&lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+					&lt;h1&gt;40523123學員的計算機課程&lt;/h1&gt;
+					&lt;h3&gt;課程內容k&lt;/h3&gt;
 					&lt;p&gt;
 						&lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; / &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;&lt;/small&gt;
 					&lt;/p&gt;
@@ -3650,6 +3661,149 @@ def domake():
 # 利用執行緒執行 https 伺服器
 make = threading.Thread(target=domake)
 make.start()</t>
+<t tx="leo.20161223145325.2"></t>
+<t tx="leo.20161223145325.3">(uncached) amd.20161004083800.2
+Diff...
+  
+  	&lt;head&gt;
+  		&lt;meta charset="utf-8"&gt;
+  
+- 		&lt;title&gt;40523123郝冠儒的計算機課程&lt;/title&gt;
++ 		&lt;title&gt;reveal.js – The HTML Presentation Framework&lt;/title&gt;
+  
+  		&lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+  		&lt;meta name="author" content="Hakim El Hattab"&gt;
+  
+  		&lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+  		&lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+  
+  		&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+  
+  		&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+  		&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+  
+  		&lt;!-- Theme used for syntax highlighting of code --&gt;
+  		&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+  
+  		&lt;!-- Printing and PDF exports --&gt;
+  		&lt;script&gt;
+  			var link = document.createElement( 'link' );
+  			link.rel = 'stylesheet';
+  			link.type = 'text/css';
+  			link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+  			document.getElementsByTagName( 'head' )[0].appendChild( link );
+  		&lt;/script&gt;
+  
+  		&lt;!--[if lt IE 9]&gt;
+  		&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+  		&lt;![endif]--&gt;
+  	&lt;/head&gt;
+</t>
+<t tx="leo.20161223145325.4">
+	&lt;head&gt;
+		&lt;meta charset="utf-8"&gt;
+
+		&lt;title&gt;reveal.js – The HTML Presentation Framework&lt;/title&gt;
+
+		&lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+		&lt;meta name="author" content="Hakim El Hattab"&gt;
+
+		&lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+		&lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+
+		&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+
+		&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+		&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+
+		&lt;!-- Theme used for syntax highlighting of code --&gt;
+		&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+
+		&lt;!-- Printing and PDF exports --&gt;
+		&lt;script&gt;
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		&lt;/script&gt;
+
+		&lt;!--[if lt IE 9]&gt;
+		&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+		&lt;![endif]--&gt;
+	&lt;/head&gt;
+</t>
+<t tx="leo.20161223145325.5">
+	&lt;head&gt;
+		&lt;meta charset="utf-8"&gt;
+
+		&lt;title&gt;40523123郝冠儒的計算機課程&lt;/title&gt;
+
+		&lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+		&lt;meta name="author" content="Hakim El Hattab"&gt;
+
+		&lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+		&lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+
+		&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+
+		&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+		&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+
+		&lt;!-- Theme used for syntax highlighting of code --&gt;
+		&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+
+		&lt;!-- Printing and PDF exports --&gt;
+		&lt;script&gt;
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		&lt;/script&gt;
+
+		&lt;!--[if lt IE 9]&gt;
+		&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+		&lt;![endif]--&gt;
+	&lt;/head&gt;
+</t>
+<t tx="leo.20161223145325.6">(uncached) amd.20161004095719.2
+Diff...
+  			&lt;div class="slides"&gt;
+  				&lt;section&gt;
+- 					&lt;h1&gt;40523123學員的計算機課程&lt;/h1&gt;
+- 					&lt;h3&gt;課程內容k&lt;/h3&gt;
++ 					&lt;h1&gt;2016Fall CPA 計算機程式課程&lt;/h1&gt;
++ 					&lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+  					&lt;p&gt;
+  						&lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; / &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;&lt;/small&gt;
+  					&lt;/p&gt;
+                      &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+  				&lt;/section&gt;
+  
+</t>
+<t tx="leo.20161223145325.7">			&lt;div class="slides"&gt;
+				&lt;section&gt;
+					&lt;h1&gt;2016Fall CPA 計算機程式課程&lt;/h1&gt;
+					&lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+					&lt;p&gt;
+						&lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; / &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;&lt;/small&gt;
+					&lt;/p&gt;
+                    &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+				&lt;/section&gt;
+
+</t>
+<t tx="leo.20161223145325.8">			&lt;div class="slides"&gt;
+				&lt;section&gt;
+					&lt;h1&gt;40523123學員的計算機課程&lt;/h1&gt;
+					&lt;h3&gt;課程內容k&lt;/h3&gt;
+					&lt;p&gt;
+						&lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; / &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;&lt;/small&gt;
+					&lt;/p&gt;
+                    &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+				&lt;/section&gt;
+
+</t>
 <t tx="yen.20161011114704.1">@others
 </t>
 <t tx="yen.20161011114704.2"></t>
